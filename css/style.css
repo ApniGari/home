@@ -48,7 +48,8 @@ body:after {
   transition: .3s all ease-in-out; }
 
 .offcanvas-menu {
-  position: relative; }
+  position: relative;
+  overflow: auto; }
   .offcanvas-menu:after {
     position: absolute;
     content: "";
