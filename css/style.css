@@ -526,15 +526,17 @@ body:after {
     -o-transition: .3s all ease;
     transition: .3s all ease; }
   .sticky-wrapper .site-navbar {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
+    background-color: #fff;
+  }
     .sticky-wrapper .site-navbar .site-menu-toggle {
-      color: #fff; }
+      color: #000; }
     .sticky-wrapper .site-navbar .site-logo a {
-      color: #fff; }
+      color: #000; }
     .sticky-wrapper .site-navbar .site-menu > li > a {
-      color: rgba(255, 255, 255, 0.7) !important; }
+       color: #000 } 
       .sticky-wrapper .site-navbar .site-menu > li > a:hover, .sticky-wrapper .site-navbar .site-menu > li > a.active {
-        color: #fff !important; }
+        color: #4d83d0 !important; }
   .sticky-wrapper.is-sticky .site-navbar {
     background: #fff;
     border-bottom: 1px solid transparent;

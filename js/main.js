@@ -361,3 +361,21 @@ jQuery(document).ready(function($) {
 	});
 
 });
+
+
+//Slider Code
+  document.getElementById('next').onclick = function(){
+    let lists = document.querySelectorAll('.item');
+    document.getElementById('slide').appendChild(lists[0]);
+}
+document.getElementById('prev').onclick = function(){
+    let lists = document.querySelectorAll('.item');
+    document.getElementById('slide').prepend(lists[lists.length - 1]);
+}
+
+function nextSlide() {
+    // Move the first slide to the end
+	const slides = document.querySelectorAll('.item');
+    const firstSlide = document.getElementById('slide').querySelector('.item');
+    document.getElementById('slide').appendChild(firstSlide);
+}
