@@ -10,6 +10,7 @@
         height:80%;
         padding:50px;
         background-color: #000;
+        overflow: hidden;
         box-shadow: 0 30px 50px #dbdbdb;
     }
     .item .content{
